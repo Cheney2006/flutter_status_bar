@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/services.dart';
 
 class FlutterStatusBar {
@@ -5,10 +7,15 @@ class FlutterStatusBar {
       const MethodChannel('flutter_status_bar');
 
   static void setTranslucent() {
-    _channel.invokeMethod('setTransparent');
+    if(Platform.isAndroid){
+      _channel.invokeMethod('setTransparent');
+    }
   }
 
   static void setLightStatusBar() {
-    _channel.invokeMethod('setLightStatusBar');
+    if(Platform.isAndroid){
+      _channel.invokeMethod('setLightStatusBar');
+    }
+
   }
 }
