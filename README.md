@@ -11,7 +11,7 @@ To use this plugin, add `flutter_statusbar` as a [dependency in your pubspec.yam
 
 ```yaml
 dependencies:
-  flutter_android_status_bar: ^1.0.0
+  flutter_status_bar_light: ^1.0.1
 ```
 
 ### Example

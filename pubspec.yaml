@@ -1,6 +1,6 @@
-name: flutter_status_bar
+name: flutter_status_bar_light
 description: A  flutter plugin that sets the android status bar transparent and status icon.
-version: 1.0.0
+version: 1.0.1
 author: cy<cy20061121@163.com>
 homepage: https://github.com/cy20061121/flutter_status_bar
 

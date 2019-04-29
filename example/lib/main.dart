@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_status_bar/flutter_status_bar.dart';
+import 'package:flutter_status_bar_light/flutter_status_bar.dart';
 
 void main() => runApp(MyApp());
 

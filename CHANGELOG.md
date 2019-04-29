@@ -1,3 +1,7 @@
+## 1.0.1
+
+*  Update dependencies ， updated by cy.
+
 ## 1.0.0
 
-*  initial release ， created by cy.
+*  Initial release ， created by cy.
