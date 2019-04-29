@@ -10,7 +10,7 @@
 }
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
-  result(FlutterMethodNotImplemented);
+
 }
 
 @end
